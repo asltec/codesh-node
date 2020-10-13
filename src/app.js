@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 const cors = require('cors');
-const bodyParser = require('body-parser');
+
 
 app.use(cors()); 
 app.use(express.urlencoded({ extended: false }));
